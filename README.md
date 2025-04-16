@@ -1,6 +1,5 @@
-###TASK:
+### TASK:
 
-## The Solution
 So at the moment the api is currently returning a random selection from a fixed set of Greggs products directly 
 from the controller itself. We currently have a data access class and it's interface but 
 it's not plugged in (please ignore the class itself, we're pretending it hits a database),
@@ -16,7 +15,7 @@ a go at implementing them. You can use whatever patterns you're used to using or
 whatever patterns you would like to use to achieve the goal. Anyhow, back to the 
 user stories:
 
-### User Story 1
+## User Story 1
 **As a** Greggs Fanatic<br/>
 **I want to** be able to get the latest menu of products rather than the random static products it returns now<br/>
 **So that** I get the most recently available products.
